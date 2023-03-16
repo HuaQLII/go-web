@@ -4,7 +4,12 @@
         {"text":"cmd"},
         {"text":"conf"},
         {"text":"dao"},
-        {"text":"global"},
+        {
+            "text":"global",
+            "children":[
+                {"text":"constants"}
+            ]
+        },
         {"text":"log"},
         {"text":"middleware"},
         {"text":"model"},

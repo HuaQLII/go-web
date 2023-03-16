@@ -1,8 +1,7 @@
-package gernate
+package generate
 
 import (
 	"encoding/json"
-	"fmt"
 	"io/fs"
 	"os"
 	"path/filepath"
@@ -15,15 +14,15 @@ var stSeparator string       //定义一个分隔符
 var iJsonData map[string]any //定义一个变量来接收加载的Json文件
 
 const stJsonFileName = "dir.json" //定义一个文件名称
-// 加载Json文件
+
 func loadJson() { //小写包外不可见
 
 	stSeparator := string(filepath.Separator)                         //分隔符实例化强转为string
 	stWorkDir, _ := os.Getwd()                                        // Getwd返回一个有根的路径名称，对应于当前目录。
 	stRootDir = stWorkDir[:strings.LastIndex(stWorkDir, stSeparator)] //string可以按照切片读取某一个片段的内容，从0-当前的这个目录最后一个分隔符对应的位置
-	fmt.Println(stSeparator)
-	fmt.Println(stWorkDir)
-	fmt.Println(stRootDir)
+	//fmt.Println(stSeparator)
+	//fmt.Println(stWorkDir)
+	//fmt.Println(stRootDir)
 	//加载Json文件
 	gnJsonBytes, _ := os.ReadFile(stWorkDir + stSeparator + stJsonFileName)
 	err := json.Unmarshal(gnJsonBytes, &iJsonData)
@@ -79,7 +78,7 @@ func createDir(path string) {
 	if path == "" {
 		return
 	}
-	fmt.Println(path)
+	//fmt.Println(path)
 	err := os.MkdirAll(stRootDir+stSeparator+path, fs.ModePerm)
 	if err != nil {
 		panic("Create DirError:" + err.Error())
