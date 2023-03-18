@@ -1,0 +1,18 @@
+{"level":"ERROR","time":"2023-03-18 16:05:36","msg":"Stop Server Error: listen tcp :8090: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted."}
+{"level":"INFO","time":"2023-03-18 16:18:22","msg":"Shutting down server..."}
+{"level":"INFO","time":"2023-03-18 16:18:22","msg":"Server exiting"}
+{"level":"INFO","time":"2023-03-18 16:18:28","msg":"Shutting down server..."}
+{"level":"INFO","time":"2023-03-18 16:18:28","msg":"Server exiting"}
+{"level":"INFO","time":"2023-03-18 16:19:31","msg":"Shutting down server..."}
+{"level":"INFO","time":"2023-03-18 16:19:31","msg":"Server exiting"}
+{"level":"INFO","time":"2023-03-18 16:19:36","msg":"Shutting down server..."}
+{"level":"INFO","time":"2023-03-18 16:19:36","msg":"Server exiting"}
+{"level":"ERROR","time":"2023-03-18 17:05:44","msg":"Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"ERROR","time":"2023-03-18 17:06:23","msg":"Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"ERROR","time":"2023-03-18 17:06:43","msg":"Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"ERROR","time":"2023-03-18 17:10:12","msg":"Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"ERROR","time":"2023-03-18 17:11:01","msg":"Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"ERROR","time":"2023-03-18 17:14:02","msg":"Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"ERROR","time":"2023-03-18 17:15:49","msg":"Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)"}
+{"level":"INFO","time":"2023-03-18 17:22:38","msg":"Shutting down server..."}
+{"level":"INFO","time":"2023-03-18 17:22:38","msg":"Server exiting"}
